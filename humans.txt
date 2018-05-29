@@ -1,0 +1,2 @@
+Theme adapted from Prologue by html5up https://html5up.net/prologue
+Originally adapted for Jekyll by Chris Bobbem https://chrisbobbe.github.io/jekyll-theme-prologue
