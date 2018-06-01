@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/abstractsec
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://abstractsec.com
+  * I am abstractsec (https://keybase.io/abstractsec) on keybase.
+  * I have a public key with fingerprint 8F25 F014 603A 5E79 F4F8  8BAC 0D9E 51F0 022D 6380
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012015596aaa93ceec3e239652a6387fb388606c9ea456ff2a7544e116659eef06a30a",
+      "fingerprint": "8f25f014603a5e79f4f88bac0d9e51f0022d6380",
+      "host": "keybase.io",
+      "key_id": "0d9e51f0022d6380",
+      "kid": "0101253219b5994c082c539151689e7de89300930c0d5fa3f977e21ff1d7eac700980a",
+      "uid": "de3e6a7687ca897b03fca7175fc97619",
+      "username": "abstractsec"
+    },
+    "service": {
+      "hostname": "abstractsec.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1527642738,
+  "expire_in": 157680000,
+  "prev": "c84599beb1e5c29893a100195aa04d7c5e43ce86dbb0cf132f777fc9f3987f14",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMNsAnicZZJ/TJVVGMfvvaABhvxwgWaJvoHDSfT+Pu97qUCcC9JVtBilwu2873te
+7iuX+9773gtKN4qNy7oxJaaUSnhtgaIJsiZuai24Qg5kYayWrR8gboqbIiKugMXs
+XMq/PNvZ2TnP9/mc7/Oc0x8bYYoxxwYL7lmel2vMQ6FghWlH7LzhIyRdqSKsPqIM
+LS7IoSCP11amKYSVICmapDhO5CGEIiMjJDOIZkSeoyHPCECVGEHgSV4WEWQ5XlVp
+CDiWRRTF85yIkErykCEhkUGomrMUGS5Dc3oxVlBpTiUplicZyCEgqqwqCBKUSUVE
+HKWSJE0rmE/iRLvuCWdgcxL0oExNx2d4Y/vP3uP6R76xc46hKVHiRJGVSYGWOUak
+OIoXRAQUJIgMSeKJr+RUyKgiAIimVJVSAIIywDFh0XfFIk5BDOIh4AUgQ0EEEsmo
+MgQU4FRZBDwlhoUeZDhhOcJqKHm8BpS9HiQT1RkEDlRqMgr3NlzM46JMWS/HBJeh
+e3VZd+Cg3et1eazhZG+VK6zejSTb/xybpDkV3E2cUYkMj6Y7CSuFlbJXC4MpjgY8
+SwNGyCDQHpdmIJsWVnDYPYlH+B5UiZGywOLWSEiiECfTIm4IpEiSEjkISVYBModY
+/OACr0gSKasUQ6sAAFyvyoj44SmWCFfmduqYTWOfsBQzPVqpE3orDERUXwztjDSZ
+Y0xLl1jC38wUEx3/6PN1uuMe2m4XdpTnGfUNVWdH8zuUKGm/IzRX15cc2nKh3/N0
+wowlvaVy51jUnfTVZzrGf9rPZujr113ibL2tfZ++cnZSaT1mzyt5pzqUoCUfH/SP
+oMb486GVnG/hlukZ/8jdLvpX0XV0W4R94a3604Fng0nFB0456tasGZaWTcT73dPX
+o74/GeHPao1M+bFzftPV9sKWcwuZxkftc3vt3/1w5vLLsw1PioHdjKu2qif70ENm
+omXyy+h9NQnZ7oqpowdjVo2f6/r5cNesT9oEQ/e/aK4WrNfMn19w/H6qK8H9aq/F
+Ar7p+3rXqCv7zcDaZdeyu5c33cx3NnbCwquWPyaWT63Iby3ZOOxrHIwuXWdNn46w
+vdcLnJtvF0QXBes3j1x58O5f/hr+s5GI6WAg/sp41rae16vmV7x9ZMfg5aGnil84
+OTS3ktVrt4xeT3mjVz9iDLSvrnUnDn8btTXxcFvudnNKUlLb+fcd62/ZhnM+fvG5
+bmte+5RqucRuvOgKbriRnpkOzMeaxgv3TS40f5X2mr3ae29GKOj7Jf+3/JcCTbGs
+QN8nRzbE9fgDhTmuJXV2FOdu+/DOzQ+KJsYi/XseuLr1sZQGd8rSrX833+jLLe7P
+mpq3ijNNluzEJ47PpvZ8UpSWOjA7kDxVMv9PxarUwQNlTbGWXamzaztycrcH7/ao
+HSf+9KWdpipP/AvFArt1
+=Q7KG
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/abstractsec
+
+==================================================================
