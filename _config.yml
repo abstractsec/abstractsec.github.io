@@ -33,7 +33,7 @@
 title: "@abstractsec"
 subtitle: "#abstract_security"
 description: >- # this means to ignore newlines until "baseurl:"
-  Infosec, data science, and business development
+  InfoSec, data science, and business development
 author: Neil Zimmerman
 email: neil@abstractsec.com
 avatar: assets/images/avatar.png
