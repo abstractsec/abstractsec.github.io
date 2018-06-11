@@ -40,7 +40,7 @@ avatar: assets/images/avatar.png
 banner: assets/images/ncy-mt.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://abstractsec.com/" # the base hostname & protocol for your site
 
 # Social settings
@@ -53,6 +53,8 @@ linkedin_url: https://www.linkedin.com/in/neilzimmerman
 # slack_url:
 twitter_url: https://twitter.com/abstractsec
 keybase_url: https://keybase.io/abstractsec
+
+twitter_username: abstractsec
 
 # Google Analytics Tracking ID goes here:
 # google_analytics:

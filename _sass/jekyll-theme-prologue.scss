@@ -212,6 +212,19 @@
 		clear: both;
 	}
 
+	/* Icons */
+	.fa-linkedin {
+		color: #0077B5;
+	}
+
+	.fa-facebook {
+		color: #3B5998;
+	}
+
+	.fa-twitter, .fa-twitter-square {
+		color: #1DA1F2;
+	}
+
 /* Sections/Article */
 
 	section, article {
@@ -682,6 +695,10 @@
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			background-image: url('images/overlay.png');
+
+			footer {
+				border-top: #666 solid 1px;
+			}
 
 			&.dark {
 				color: #ddd;
