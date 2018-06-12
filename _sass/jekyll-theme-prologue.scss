@@ -214,7 +214,7 @@
 	}
 
 	/* Icons */
-	.main {
+	article {
 		.fa-linkedin {
 			color: #0077B5;
 		}
@@ -521,7 +521,7 @@
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'space-between');
-		background: #182026 url('images/overlay.png');
+		background: #182026;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -603,6 +603,10 @@
 			}
 
 			li {
+				&:hover {
+					background: #293742;
+				}
+
 				a {
 					display: block;
 					padding: 0.5em 1.5em 0.5em 1.5em;
@@ -635,7 +639,7 @@
 					}
 
 					&.active {
-						background: rgba(0, 0, 0, 0.15);
+						background: #202B33;
 						box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 						color: #fff;
 
@@ -693,6 +697,9 @@
 				}
 			}
 		}
+		article footer {
+			border-top: #666 solid 1px;
+		}
 		> section, article {
 			margin: 0;
 			overflow: hidden;
@@ -700,9 +707,7 @@
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			background-image: url('images/overlay.png');
 
-			footer {
-				border-top: #666 solid 1px;
-			}
+			
 
 			&.dark {
 				color: #ddd;
@@ -724,6 +729,10 @@
 					&:hover {
 						border-bottom-color: rgba(255, 255, 255, 0);
 					}
+				}
+				
+				header {
+					color: #fff;
 				}
 			}
 
@@ -803,15 +812,12 @@
 			margin: 20px;
 
 			&:hover {
-				margin: 10px;
-				width: 220px;
-				height: 240px;
+				background: #30404D;
 			}
 
 			.project-title {
 				color: #FFF;
 				border-bottom: #FFF solid 2px;
-
 			}
 
 			i {
@@ -1019,12 +1025,9 @@
 		/* Header */
 
 			#header {
-				@include vendor('backface-visibility', 'hidden');
 				@include vendor('transform', 'translateX(#{_size(header) * -1})');
 				@include vendor('transition', ('transform #{_duration(header)} ease'));
 				-webkit-overflow-scrolling: touch;
-				display: block;
-				height: 100%;
 				left: 0;
 				overflow-y: auto;
 				position: fixed;
@@ -1032,20 +1035,6 @@
 				width: _size(header);
 				z-index: _misc(z-index-base) + 2;
 				width: _size(header);
-				background: #222729 url('images/overlay.png');
-				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
-
-				.top {
-					position: relative;
-				}
-
-				.bottom {
-					border-top: solid 1px rgba(255, 255, 255, 0.05);
-					box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.15);
-					padding-top: 2em;
-					margin-top: 2em;
-					position: relative;
-				}
 			}
 
 			#logo {
@@ -1215,5 +1204,13 @@
 					}
 				}
 			}
+
+		.projects-area .project-thumbnail {
+			width: 80%;
+			min-width: 200px;
+			max-width: 400px;
+			float: none;
+			margin: 20px auto;
+		}
 
 	}
