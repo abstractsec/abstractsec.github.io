@@ -1,1 +1,7 @@
-{{- include.content -}}
+{%- if include.project.link -%}
+    <a href="{{- include.project.link -}}"><h3>{{ include.project.title }} <i class="fas fa-link"></i></h3></a>
+{%- else -%}
+    <h3>{{ include.project.title }}</h3>
+{%- endif -%}
+
+{{- include.project.content -}}

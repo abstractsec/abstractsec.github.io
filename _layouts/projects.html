@@ -9,12 +9,18 @@ layout: page
 {%- if first_project -%}
 <div class="projects-area">
 	{%- for _project in _projects -%}
-		<div class="project-thumbnail">
-			<div class="project-preview"></div>
-			<span class="project-title">{{ _project.title }}</span>
-		</div>
-		<div class="project-pane">
-			{%- include project.html content=_project.content -%}
+		<a href="#{{- _project.title | url_encode -}}" rel="modal:open">
+			<div class="project-thumbnail">
+				<h4 class="project-title dark">{{ _project.title }}</h4>
+				{%- if _project.icon -%}
+					<i class="{{- _project.icon -}}"></i>
+				{%- else -%}
+					<i class="fas fa-code fa-5x"></i>
+				{%- endif -%}
+			</div>
+		</a>
+		<div id="{{- _project.title | url_encode -}}" class="modal project-detail">
+			{%- include project.html project=_project -%}
 		</div>
 	{%- endfor -%}
 </div>
