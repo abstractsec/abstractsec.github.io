@@ -11,8 +11,8 @@ layout: page
 		<div class="post-preview">
 			<div class="post-header">
 				<span class="title">{{ _post.title }}</span>
-				by <span class="author"></span>{{ _post.author }}</span>
-				on <span class="date"></span>{{ _post.date | date_to_long_string }}</span>
+				by <span class="author">{{ _post.author }}</span>
+				on <span class="date">{{ _post.date | date_to_long_string }}</span>
 			</div>
 			<p>{{- _post.excerpt | strip_html | truncatewords: 100 -}}</p>
 		</div>

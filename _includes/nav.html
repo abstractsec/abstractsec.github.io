@@ -16,11 +16,11 @@
         {%- comment -%}<!-- page.url (no underscore) is the url of the current page-->{%- endcomment -%}
         {%- if _page.url == page.url -%}
           <li><a href="#" id="{{- _slug -}}" class="active">
-              <span>{{- _title -}} <i class="{{ _icon }}"></i></span>
+              <span>/{{- _title -}} <i class="{{ _icon }}"></i></span>
           </a></li>
         {%- elsif _page.url -%}
           <li><a href="{{- _page.url | absolute_url -}}" id="{{- _slug -}}-link">
-              <span>{{- _title -}} <i class="{{ _icon }}"></i></span>
+              <span>/{{- _title -}} <i class="{{ _icon }}"></i></span>
           </a></li>
         {%- else -%}
           <li><a href="{{- '/' | absolute_url -}}" id="broken-link">
@@ -32,7 +32,7 @@
     {% assign resume = site.static_files | where: "basename", "resume" | first %}
     {%- if resume -%}
       <li><a href="{{- resume.path | absolute_url -}}" id="cv" target="_blank">
-          <span>RESUME <i class="fa fa-address-card"></i></span>
+          <span>/resume <i class="fa fa-address-card"></i></span>
       </a></li>
     {%- endif -%}
     {%- assign _sections = include.section_items | where_exp: "section", "section.hide != true" -%}
