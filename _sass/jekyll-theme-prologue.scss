@@ -894,8 +894,11 @@
 		/* Main */
 
 			#main {
-				> section, article {
-					padding: 2em 0 4em 0;
+				> article {
+					padding: 2em 0 5em 0;
+				}
+				> section:last-child {
+					padding: 2em 0 5em 0;
 				}
 
 				section {
@@ -1153,9 +1156,13 @@
 				padding-bottom: 1px;
 				margin-left: 0;
 
-				> section, article {
-					padding: 3em 0;
+				> article {
+					padding: 2em 0 5em 0;
 				}
+				> section:last-child {
+					padding: 2em 0 5em 0;
+				}
+
 
 				section {
 					&.cover {
@@ -1199,8 +1206,12 @@
 		/* Main */
 
 			#main {
-				> section, article {
-					padding: 2em 0 4em 0;
+				> section:last-child {
+					padding: 2em 0 5em 0;
+				}
+
+				> article {
+					padding: 2em 0 5em 0;
 				}
 
 				section {
