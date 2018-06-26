@@ -61,5 +61,5 @@ twitter_username: abstractsec
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: abstractsec
 collections:
-- sections
-- projects
+  - sections
+  - projects
