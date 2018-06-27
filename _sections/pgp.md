@@ -8,6 +8,7 @@ on [Keybase <i class="fab fa-keybase"></i>]({{- site.keybase_url -}}))
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
+
 mQINBFsyp6sBEACdEPtJ/S+AJ30Hr73/kVspEpUErPAlJY0Dd5SkZ7S/ZLrBcxyf
 jlWmTur0gaKequ1aamfeXvvRSW+FDPOjH4xajIZp4fqQ1VR/Kws2r2NHEvgbvnch
 zlcexMIWiuaBsBb23gI3SghkSYCU4siCpYpUbvrpe/G+Iz6XF5aL02f+cj3mPuXz
