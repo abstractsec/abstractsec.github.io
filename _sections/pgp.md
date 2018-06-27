@@ -3,7 +3,7 @@ title: PGP
 icon: fas fa-lock
 order: 2
 ---
-If you want to get in touch about something sensistive, reachout using my PGP key (also available
+If you want to get in touch about something sensitive, reachout using my PGP key (also available
 on [Keybase <i class="fab fa-keybase"></i>]({{- site.keybase_url -}}))
 
 ```
